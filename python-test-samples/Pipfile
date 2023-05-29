@@ -1,0 +1,29 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+aws_lambda_powertools = "*"
+boto3 = "*"
+fastjsonschema = "*"
+pydantic = "*"
+
+[dev-packages]
+black = "*"
+coverage = "*"
+build = "*"
+bump2version = "*"
+flake8 = "*"
+flake8-bugbear = "*"
+ipython = "*"
+isort = "*"
+mypy = "*"
+pre-commit = "*"
+pytest = "*"
+pytest-cov = "*"
+pytest-mock = "*"
+moto = "*"
+
+[requires]
+python_version = "3.11"
